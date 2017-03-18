@@ -1,0 +1,7 @@
+[package]
+authors = ["roblabla <unfiltered@roblab.la>"]
+name = "testcrate"
+version = "0.1.0"
+
+[dependencies]
+byteorder = "1.0.0"

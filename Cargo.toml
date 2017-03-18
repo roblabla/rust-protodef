@@ -1,0 +1,15 @@
+[package]
+name = "protodef"
+version = "0.1.0"
+authors = ["roblabla <robinlambertz+dev@gmail.com>"]
+
+[dependencies]
+quote = "0.3"
+rustfmt = "0.7"
+lazy_static = "0.1"
+byteorder = "1.0"
+linked-hash-map = "0.3"
+
+[dependencies.serde_json]
+version = "0.9.8"
+features = ["preserve_order"]
